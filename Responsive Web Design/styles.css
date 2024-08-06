@@ -4,10 +4,28 @@ body {
     background-color: white;
     /* background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);*/
 }
-h1, h2, p{
+
+p{
     text-align: center;
 }
 
+h1 {
+    font-size: 40px;;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+    border-color: black;
+}
 .menu{
     background-color: blanchedalmond;
     width: 80%;
@@ -30,4 +48,8 @@ h1, h2, p{
 
 .item p{
     display: inline-block;
+}
+
+.established{
+    font-style: italic;
 }
