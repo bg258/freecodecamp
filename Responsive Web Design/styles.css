@@ -1,4 +1,5 @@
 body {
+    padding: 20px;
     font-family: sans-serif;
     /* background-color: blanchedalmond;*/
     background-color: white;
@@ -47,6 +48,9 @@ hr{
 }
 
 .item p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: inline-block;
 }
 
